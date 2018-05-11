@@ -42,6 +42,11 @@ public class CacheConfiguration {
             cm.createCache(br.com.elmoreplus.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(br.com.elmoreplus.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(br.com.elmoreplus.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(br.com.elmoreplus.domain.Page.class.getName(), jcacheConfiguration);
+            cm.createCache(br.com.elmoreplus.domain.Entry.class.getName(), jcacheConfiguration);
+            cm.createCache(br.com.elmoreplus.domain.Entry.class.getName() + ".tags", jcacheConfiguration);
+            cm.createCache(br.com.elmoreplus.domain.Tag.class.getName(), jcacheConfiguration);
+            cm.createCache(br.com.elmoreplus.domain.Tag.class.getName() + ".entries", jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
