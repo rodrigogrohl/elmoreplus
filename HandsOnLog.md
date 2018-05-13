@@ -36,8 +36,4 @@
   
   
 ## Travis > Heroku
-- Copiar Heroku Token: Account > API Key  
-- Instalar **gem**: `sudo apt install ruby`  
-- Instalar travis client: `sudo gem install travis`
-
    
