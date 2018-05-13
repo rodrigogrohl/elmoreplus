@@ -7,5 +7,6 @@ addons:
     branches:
       - master
       - develop
+      - feature/heroku-deploy
 script:
 - mvn clean install sonar:sonar

@@ -12,7 +12,13 @@
 - (Opcional) `yarn e2e` para execução dos testes End-to-End do Protractor;  
 
 [Referencia](http://gist.asciidoctor.org/?github-mraible/jhipster4-demo//README.adoc)  
+  
 
 # Versão 0.2.0  
-
+  
+- Cadastro em [travis-ci.com](https://travis-ci.com)  
 - Adicinado arquivo `.travis.yml`  
+- Configurada Variável de Ambiente em:   
+  More Options > Settings > Environment Variables e adicione: **SONAR_TOKEN**  
+
+   
