@@ -7,5 +7,10 @@ addons:
     branches:
       - master
       - develop
+      - feature/heroku-deploy
 script:
 - mvn clean install sonar:sonar
+deploy:
+  provider: heroku
+  api_key: $HEROKU_AUTH_TOKEN
+  app: elmoreplus
