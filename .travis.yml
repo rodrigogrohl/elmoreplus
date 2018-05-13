@@ -12,5 +12,5 @@ script:
 - mvn clean install sonar:sonar
 deploy:
   provider: heroku
-  api_key:
-    secure: 57b161ac-4412-4e04-8979-d3d239d540f3
+  api_key: $HEROKU_AUTH_TOKEN
+  app: elmoreplus
