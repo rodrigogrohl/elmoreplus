@@ -21,7 +21,21 @@
 - Configurada Variável de Ambiente em:   
   More Options > Settings > Environment Variables e adicione: **SONAR_TOKEN**  
   
-## Heroku
+## Just Heroku
+- Install heroku client, [Instruções](https://devcenter.heroku.com/articles/heroku-cli)  
+- Login: `heroku login`  
+- `heroku git:remote -a elmoreplus`  
+
+# JHipster Support to Heroku  
+[JHipster - Heroku](https://www.jhipster.tech/heroku/)  
+- `./mvnw package -Pprod -DskipTests`  
+- `heroku deploy:jar --jar target/*.war`  
+- Deploy or Redeploy: `jhipster heroku`
+- Abrir aplicação: `heroku open`
+- Verificar Logs:	`heroku logs --tail`
+  
+  
+## Travis > Heroku
 - Copiar Heroku Token: Account > API Key  
 - Instalar **gem**: `sudo apt install ruby`  
 - Instalar travis client: `sudo gem install travis`
