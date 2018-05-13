@@ -15,10 +15,15 @@
   
 
 # Versão 0.2.0  
-  
+## SonarQube  
 - Cadastro em [travis-ci.com](https://travis-ci.com)  
 - Adicinado arquivo `.travis.yml`  
 - Configurada Variável de Ambiente em:   
   More Options > Settings > Environment Variables e adicione: **SONAR_TOKEN**  
+  
+## Heroku
+- Copiar Heroku Token: Account > API Key  
+- Instalar **gem**: `sudo apt install ruby`  
+- Instalar travis client: `sudo gem install travis`
 
    
